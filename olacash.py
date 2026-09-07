@@ -350,16 +350,16 @@ logo=("""   [green1]███████╗██╗     ██╗███╗ 
           [cyan][bold]VERSION/0.9
    [green_yellow]MY [dark_olive_gre]SYSTEM[pale_green1] IS[dark_sea_green] DIFFERENT BROTHER""")
 ll=str([hari,tanggal])
-hx=(f"""  [bold green1]AUTHOR[bold white]      ▶︎ [cyan][bold]SLIM
+access_key = "TEST"
+hx = f"""  [bold green1]AUTHOR[bold white]      ▶︎ [cyan][bold]SLIM
   [bold green1]FACEBOOK[bold white]    ▶︎ [cyan][bold]ETHAN KLEIN HUILEN
   [bold green1]STATUS[bold white]      ▶︎ [cyan][bold]PAID
-  [bold green1]BESTFRIEND[bold white]  ▶︎ [cyan][bold]ASIM CHUZA ARNOLD MUJIB SYED SHANU 
+  [bold green1]BESTFRIEND[bold white]  ▶︎ [cyan][bold]ASIM CHUZA ARNOLD MUJIB SYED SHANU
   [bold green1]TYPE[bold white]        ▶︎ [cyan][bold]AUTO CREATE FACEBOOK
   [bold green1]GITHUB[bold white]      ▶︎ [cyan][bold]MR-ERROR-807
   [bold green1]COUNTRY[bold white]     ▶︎ [cyan][bold]{negara}
   [bold green1]TODAY DATE[bold white]  ▶︎ [green]{ll}
-  [bold green1]ACCESS KEY[bold white]  ▶︎ [green]{access_key}""")
-
+  [bold green1]ACCESS KEY[bold white]  ▶︎ [green]{access_key}"""
 def clear():
     os.system('cls' if platform.system().lower() == 'windows' else 'clear')
     rprint(pan(logo,subtitle="[bold red]● [bright_yellow]● [green1]●",subtitle_align='left',title="[bold red]● [bright_yellow]● [green1]●",title_align='right',width=102,padding=0,style="bold cyan1"))
